@@ -1,9 +1,8 @@
 jenkins-master-slave
 ====================
 
-#How to bring up Jenkins
+##How to bring up Jenkins Master-Slave setup
 
-##digitalOcean
 Prerequisites:
 - Install vagrant-flow
     - Follow ALL the instructions here https://github.com/DemandCube/vagrant-flow
