@@ -1,0 +1,10 @@
+---
+- hosts: jenkins-master
+  remote_user: root
+  roles:
+    - { role: jenkins, when: ansible_distribution == 'CentOS' }
+
+- hosts: jenkins-slave
+  remote_user: root
+  roles:
+    - { role: jenkins-slave, when: ansible_distribution == 'Ubuntu' }
