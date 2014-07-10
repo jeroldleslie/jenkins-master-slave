@@ -13,9 +13,9 @@ subFolder=cloudJenkins
 
 [jenkins-slave:vars]
 jenkins_home=/var/lib/jenkins
-jenkins_master_url=http://128.199.165.138:8087/
-jenkins_username=pleslie
-jenkins_password=pleslie
-jenkins_master_sshPublicKey="\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaa0qzcxM9/ABiPgRoxYvqaFHzJeLEcGoPeVZXS+DuyNz13ETFjnKB4c8iuE0WWj1EQGms4VmLxnDhlxCUah8NdWp20GlBPiWaHXBhp/002/xX4/GhYDSS67bEJFc91P829YtEASG/8dRLnJqVQjh9fsfb+/oRh5b0S2d/A+9KCVG4LktTZB1sjFILDYP8YtkIBfZFGL9W91YaAbm7JyEkQToYnpn7cu0X2Es9nzf1KRdMa7bw9uWjLNB4oocp99/aOY3vbP+gugSfpy/2oP5ebSoBI8tIkACTfmH9Otl8xMmkjb1aIHnfhT1WgwPxmwHmr4aLDFlfnxSLuS1SEhCf root@peter4\""
+jenkins_master_url=http://demandcubejenkinsip:8080/
+jenkins_username=xxxx
+jenkins_password=xxxx
+jenkins_master_sshPublicKey="\"ssh-rsa xxxxxxx jenkins@master\""
 
 
