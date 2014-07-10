@@ -36,5 +36,4 @@ vi ./jenkins_global_vars.yml
 #	-s, --slave		 set slave (either hostname or ip | multiple ip's can be given as comma seperated values )
 #	-h, --help		 print this help message
 ```
-```
 
