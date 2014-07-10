@@ -28,11 +28,8 @@ vi ./jenkins_global_vars.yml
 #jenkins_master_sshPublicKey (jenkins master ssh public key eg: ssh-rsa xxxxxxx jenkins@master)
 
 ```
-    
-    
-- run ./setup_JenkinsMasterSlave.sh
-- 
-
+- Run ./setup_JenkinsMasterSlave.sh
+```
 ./setup_JenkinsMasterSlave.sh -m <masterhost> -s <slavehost1>,<slavehost2>...
 #Usage:
 #	-m, --master     set master (either hostname or ip)
