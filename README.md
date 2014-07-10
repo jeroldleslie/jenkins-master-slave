@@ -8,10 +8,10 @@ jenkins-master-slave
 
 ##Steps to bring up Jenkins Master-Slave:
 - Clone jenkins-master-slave
-
-`git clone https://github.com/DemandCube/jenkins-master-slave.git
-cd jenkins-master-slave`
-
+```
+git clone https://github.com/DemandCube/jenkins-master-slave.git
+cd jenkins-master-slave
+```
 - update jenkins_global_vars.yml.
 ```
 vi ./jenkins_global_vars.yml
@@ -27,7 +27,6 @@ vi ./jenkins_global_vars.yml
 #jenkins_username (jenkins username)
 #jenkins_password (jenkins password)
 #jenkins_master_sshPublicKey (jenkins master ssh public key eg: ssh-rsa xxxxxxx jenkins@master)
-
 ```
 - Run ./setup_JenkinsMasterSlave.sh
 ```
