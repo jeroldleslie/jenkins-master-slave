@@ -3,14 +3,15 @@ jenkins-master-slave
 
 ##Prerequisites:
 - Install ansible
-
+- Make sure there is passwordless ssh connections between host and remote machines (to run ansible)
+- Make sure all remote machines are java installed to run jenkins
 
 ##Steps to bring up Jenkins Master-Slave:
 - Clone jenkins-master-slave
-```
-git clone https://github.com/DemandCube/jenkins-master-slave.git
-cd jenkins-master-slave
-```
+
+`git clone https://github.com/DemandCube/jenkins-master-slave.git
+cd jenkins-master-slave`
+
 - update jenkins_global_vars.yml.
 ```
 vi ./jenkins_global_vars.yml
